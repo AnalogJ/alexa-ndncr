@@ -29,14 +29,8 @@
           "slots": [
             {
               "name": "PhoneNumber",
-              "type": "AMAZON.PhoneNumber",
-              "samples": [
-                "my number is {PhoneNumber}",
-                "it's {PhoneNumber}",
-                "{PhoneNumber}"
-              ]
+              "type": "AMAZON.PhoneNumber"
             }
-
           ],
           "samples": [
             "register number",
@@ -53,11 +47,61 @@
             "enroll a number",
             "enroll my number",
             "enroll {PhoneNumber}"
+          ]
+        }
+      ]
+    },
 
+    "dialog": {
+      "intents": [
+        {
+          "name": "RegisterNumberIntent",
+          "confirmationRequired": true,
+          "prompts": {
+            "confirmation": "Confirm.Intent.Register"
+          },
+          "slots": [
+            {
+              "name": "PhoneNumber",
+              "type": "AMAZON.PhoneNumber",
+              "confirmationRequired": false,
+              "elicitationRequired": true,
+              "prompts": {
+                "elicitation": "Elicit.Slot.Register.PhoneNumber"
+              }
+            }
 
           ]
         }
       ]
-    }
+    },
+    "prompts": [
+      {
+        "id": "Elicit.Slot.Register.PhoneNumber",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "What is your phone number?"
+          },
+          {
+            "type": "PlainText",
+            "value": "What phone number would you like to register?"
+          },
+          {
+            "type": "PlainText",
+            "value": "What phone number would you like to enroll?"
+          }
+        ]
+      },
+      {
+        "id": "Confirm.Intent.Register",
+        "variations": [
+          {
+            "type": "SSML",
+            "value": "<speak>Are you sure you want to add <say-as interpret-as=\"telephone\">{PhoneNumber}</say-as> to the do not call registry?</speak>"
+          }
+        ]
+      }
+    ]
   }
 }

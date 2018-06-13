@@ -26,7 +26,8 @@ const skillBuilder = Alexa.SkillBuilders.custom();
 exports.handler = skillBuilder
   .addRequestHandlers(
     require('./handlers/LaunchRequestHandler').handler,
-    require('./handlers/RegisterNumberIntentHandler').handler,
+    require('./handlers/InProgressRegisterNumberIntentHandler').handler,
+    require('./handlers/CompletedRegisterNumberIntentHandler').handler,
 
     require('./handlers/HelpIntentHandler').handler,
     require('./handlers/CancelAndStopIntentHandler').handler,

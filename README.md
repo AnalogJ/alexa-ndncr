@@ -25,4 +25,5 @@ https://echosim.io/welcome
 - https://developer.amazon.com/docs/custom-skills/create-the-interaction-model-for-your-skill.html
 - https://developer.amazon.com/docs/smapi/interaction-model-schema.html#interaction-model-schemas
 - https://developer.amazon.com/docs/custom-skills/define-the-dialog-to-collect-and-confirm-required-information.html#set-the-intent-slot-order
-
+- https://github.com/alexa/alexa-cookbook/blob/master/feature-demos/skill-demo-plan-my-trip/models/en-US.json
+- https://developer.amazon.com/docs/custom-skills/speech-synthesis-markup-language-ssml-reference.html
