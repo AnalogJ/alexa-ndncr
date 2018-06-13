@@ -1,0 +1,63 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "national do not call registry",
+      "types": [
+
+      ],
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": [
+
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+
+          ]
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+
+          ]
+        },
+        {
+          "name": "RegisterNumberIntent",
+          "slots": [
+            {
+              "name": "PhoneNumber",
+              "type": "AMAZON.PhoneNumber",
+              "samples": [
+                "my number is {PhoneNumber}",
+                "it's {PhoneNumber}",
+                "{PhoneNumber}"
+              ]
+            }
+
+          ],
+          "samples": [
+            "register number",
+            "register a number",
+            "register my number",
+            "register {PhoneNumber}",
+
+            "protect number",
+            "protect a number",
+            "protect my number",
+            "protect {PhoneNumber}",
+
+            "enroll number",
+            "enroll a number",
+            "enroll my number",
+            "enroll {PhoneNumber}"
+
+
+          ]
+        }
+      ]
+    }
+  }
+}
