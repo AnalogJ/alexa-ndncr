@@ -8,17 +8,19 @@ National Do Not Call Registry (NDNCR) and submit complaints.
 
 
 # Contribute
-
+https://developer.amazon.com/alexa/console/ask?
+ 
 ask deploy -p default
 https://echosim.io/welcome
 
 
 # References
+- https://developer.amazon.com/alexa-skills-kit/alexa-aws-credits
+- https://developer.amazon.com/alexa-skills-kit/alexa-developer-skill-promotion
 
 - https://developer.amazon.com/docs/smapi/ask-cli-command-reference.html#new-command
 - https://developer.amazon.com/docs/smapi/quick-start-alexa-skills-kit-command-line-interface.html
 - https://developer.amazon.com/docs/ask-overviews/build-skills-with-the-alexa-skills-kit.html
-- https://developer.amazon.com/alexa-skills-kit/alexa-developer-skill-promotion
 - https://developer.amazon.com/alexa/console/ask
 - https://github.com/alexa/skill-sample-nodejs-howto/blob/master/models/en-US.json
 - https://developer.amazon.com/docs/custom-skills/slot-type-reference.html#phonenumber
@@ -27,3 +29,6 @@ https://echosim.io/welcome
 - https://developer.amazon.com/docs/custom-skills/define-the-dialog-to-collect-and-confirm-required-information.html#set-the-intent-slot-order
 - https://github.com/alexa/alexa-cookbook/blob/master/feature-demos/skill-demo-plan-my-trip/models/en-US.json
 - https://developer.amazon.com/docs/custom-skills/speech-synthesis-markup-language-ssml-reference.html
+
+- https://github.com/sambaiz/puppeteer-lambda-starter-kit
+- https://medium.com/@marco.luethy/running-headless-chrome-on-aws-lambda-fa82ad33a9eb

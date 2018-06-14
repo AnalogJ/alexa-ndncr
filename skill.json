@@ -5,7 +5,7 @@
         "en-US": {
           "summary": "Add your phone number to the National Do Not Call Registry and submit complaints",
           "examplePhrases": [
-            "Alexa open national do not call registry",
+            "Alexa open do not call",
             "Alexa tell ndncr",
             "Alexa ask ndncr say hello"
           ],

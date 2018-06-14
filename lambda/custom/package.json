@@ -10,6 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "ask-sdk-core": "^2.0.0",
-    "ask-sdk-model": "^1.0.0"
+    "ask-sdk-model": "^1.0.0",
+    "puppeteer": "^1.5.0",
+    "tar": "^4.4.4"
   }
 }
