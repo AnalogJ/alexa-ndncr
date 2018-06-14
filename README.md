@@ -27,3 +27,16 @@ https://echosim.io/welcome
 - https://developer.amazon.com/docs/custom-skills/define-the-dialog-to-collect-and-confirm-required-information.html#set-the-intent-slot-order
 - https://github.com/alexa/alexa-cookbook/blob/master/feature-demos/skill-demo-plan-my-trip/models/en-US.json
 - https://developer.amazon.com/docs/custom-skills/speech-synthesis-markup-language-ssml-reference.html
+
+
+# Steps
+
+- make a web request/curl to the register page
+- parse html response with cheerio
+- select the form, and serialize the data
+- make a post request to the register page with serialzied data + submission data
+- parse html response with cheerio
+- selec tthe form, and serialize confirmation data. 
+- make a post request to the register page with serialized confirmation data
+- SUCCESS. 
+- Inform user that they will need to check their email. 
